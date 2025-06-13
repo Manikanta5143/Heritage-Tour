@@ -1,0 +1,130 @@
+/* Base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+    background-color: #FAF3E0;
+    color: #2F2F2F;
+}
+
+/* Header and Navbar */
+header {
+    background-color: #6E1E23; /* Maroon */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #B56935; /* Copper accent */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #A5412A; /* Terracotta */
+    padding: 10px;
+}
+
+nav a {
+    color: #F6F1E7;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #C5A059; /* Gold highlight */
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('images/heritage-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Section Styling */
+.section {
+    padding: 60px 20px;
+    background-color: #F6F1E7;
+}
+
+.section.alt {
+    background-color: #EEE9E2;
+}
+
+.section h2 {
+    color: #6E1E23; /* Maroon */
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    border-left: 6px solid #DDB72E; /* Turmeric yellow accent */
+    padding-left: 15px;
+}
+
+.section p {
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Call to Action */
+.cta {
+    background-color: #3F7A5F; /* Jade green */
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.cta a {
+    background-color: #C5A059; /* Gold */
+    color: #2F2F2F;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta a:hover {
+    background-color: #DDB72E;
+}
+
+/* Footer */
+footer {
+    background-color: #2F2F2F;
+    color: #FAF3E0;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 768px) {
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+}
