@@ -48,11 +48,7 @@ An immersive virtual tour application that showcases historical sites with inter
 
 ## Installation
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/heritage-site-tour.git
-cd heritage-site-tour
-```
+1.Add the audio files into folder named "audio"
 
 2. Create and activate a virtual environment:
 ```bash
